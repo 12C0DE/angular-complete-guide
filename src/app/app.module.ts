@@ -11,6 +11,7 @@ import { HeaderComponent } from './Header/header/header.component';
 import { RecipeBookComponent } from './recipe-book/recipe-book.component';
 import { RecipesComponent } from './RecipeBook/recipes/recipes.component';
 import { FormsModule } from '@angular/forms';
+import { BasicHighlightDirective } from './basic-highlight/basic-highlight.directive';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { FormsModule } from '@angular/forms';
     HeaderComponent,
     RecipeBookComponent,
     RecipesComponent,
+    BasicHighlightDirective,
   ],
   imports: [BrowserModule, FormsModule],
   providers: [],
